@@ -1,0 +1,105 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "DSSL2024-2",
+    "collectionId": "87410909-be1d-40c8-b4ab-b7d53aa11383",
+    "dateExported": "2024-11-01T01:45:48.107Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d4892145-78f3-4281-ba61-2437faa0b4d1",
+            "colId": "87410909-be1d-40c8-b4ab-b7d53aa11383",
+            "containerId": "",
+            "name": "GETUSUARIOS",
+            "url": "http://localhost:3000/api/users/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-10-26T22:07:52.064Z",
+            "modified": "2024-10-26T22:11:12.358Z",
+            "headers": []
+        },
+        {
+            "_id": "0b817048-2590-42b4-8c50-40c0d8d299f1",
+            "colId": "87410909-be1d-40c8-b4ab-b7d53aa11383",
+            "containerId": "",
+            "name": "GETROLES",
+            "url": "http://localhost:3000/api/roles/",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2024-11-01T00:31:16.795Z",
+            "modified": "2024-11-01T00:31:35.284Z",
+            "headers": []
+        },
+        {
+            "_id": "a795597b-8df3-4f9a-a952-de74894597ed",
+            "colId": "87410909-be1d-40c8-b4ab-b7d53aa11383",
+            "containerId": "",
+            "name": "GETUSUARIOSBYID",
+            "url": "http://localhost:3000/api/users/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-10-26T22:19:56.080Z",
+            "modified": "2024-10-26T22:20:26.212Z",
+            "headers": []
+        },
+        {
+            "_id": "5a7e700e-2d85-4f57-a4f9-ac0807c1666e",
+            "colId": "87410909-be1d-40c8-b4ab-b7d53aa11383",
+            "containerId": "",
+            "name": "GETUSUARIOBYROL",
+            "url": "http://localhost:3000/api/roles/users/1",
+            "method": "GET",
+            "sortNum": 35000,
+            "created": "2024-11-01T01:39:30.932Z",
+            "modified": "2024-11-01T01:40:03.163Z",
+            "headers": []
+        },
+        {
+            "_id": "7c64ca44-02ab-4406-97ba-315e4c1677bd",
+            "colId": "87410909-be1d-40c8-b4ab-b7d53aa11383",
+            "containerId": "",
+            "name": "CREATEUSER",
+            "url": "http://localhost:3000/api/users/",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-10-26T22:51:29.473Z",
+            "modified": "2024-11-01T00:21:02.311Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"rguevara\",\n  \"email\":\"rguevara@unu.edu.pe\",\n  \"idRol\":1\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "44bcd8e7-3172-40a7-972b-5458576b36e2",
+            "colId": "87410909-be1d-40c8-b4ab-b7d53aa11383",
+            "containerId": "",
+            "name": "UPDATEUSER",
+            "url": "http://localhost:3000/api/users/1",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-10-26T23:00:08.880Z",
+            "modified": "2024-11-01T00:21:14.225Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"jperales\",\n  \"email\":\"jperales@unu.edu.pe\",\n  \"id\":1\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "404b4ca2-ed3d-498d-a04f-b1588cf97c35",
+            "colId": "87410909-be1d-40c8-b4ab-b7d53aa11383",
+            "containerId": "",
+            "name": "DELETEUSER",
+            "url": "http://localhost:3000/api/users/12",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-10-30T22:46:11.280Z",
+            "modified": "2024-10-30T23:41:08.079Z",
+            "headers": []
+        }
+    ],
+    "ref": "FQwgr-Ycr90u5OUGbFCOQDFXOFru0uVd2JaJkKsZTpgn2Ao---PHTNov2iki3F4WFCjVbtmYU_A-J1QvB_n9eA"
+}
